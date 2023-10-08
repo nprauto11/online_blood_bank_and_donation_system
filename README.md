@@ -1,4 +1,4 @@
-# Blood-Bank-&-Donation-Management-System
+# Online Blood-Bank-&-Donation-Management-System
 
 Blood Bank Donation System is a php based web project with both admin and user layouts.
 
@@ -13,7 +13,7 @@ Blood Bank Donation System is a php based web project with both admin and user l
    OR follow gitbash commands <br>
      ```t
          i> cd C:\\xampp\htdocs\
-        ii> git clone https://github.com/nprauto11/online_blood_bank_and_donation_system.git BDMS
+        ii> git clone https://github.com/nprauto11/online_blood_bank_and_donation_system.git obbds
      
      
 4. Extract files in C:\xampp\htdocs.
@@ -22,22 +22,22 @@ Blood Bank Donation System is a php based web project with both admin and user l
 
 6. Click on new at side navbar.
 
-7. Give a database name as (blood_bank_database) hit on create button.
+7. Give a database name as (blood_donation) hit on create button.
 
 8. After creating database name click on import.
 
-9. Browse the file in directory[sql/blood_bank_database.sql].
+9. Browse the file in directory[sql/blood_donation.sql].
 
 10. After importing successfully.
 
-11. Open any browser and type http://localhost/BDMS/index.php to open User layout.
+11. Open any browser and type http://localhost/obbds/index.php to open User layout.
      
 # Admin Panel
-   Open any browser and type http://localhost/BDMS/admin/index.php to open Admin Login Panel.
+   Open any browser and type http://localhost/obbds/admin/index.php to open Admin Login Panel.
    
    Enter Below Credentials to login to the Admin Panel.<br>
    <b> Username = </b> pradeep<br>
-   <b>Password = </b> npr@123
+   <b>Password = </b> 123
    
 # If you like my project hit the star 🌟 button
 
