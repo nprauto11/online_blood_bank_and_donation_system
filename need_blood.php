@@ -70,10 +70,12 @@
             <h3 class="card-title"><?php echo $row['donor_name']; ?></h3>
             <p class="card-text">
               <b>Blood Group : </b> <b><?php echo $row['blood_group']; ?></b><br>
-              <b>Mobile No. : </b> <?php echo $row['donor_number']; ?><br>
+            <!--  <b>Mobile No. : </b> <?php echo $row['donor_number']; ?><br> -->
+              <b>Mobile No. : </b> <?php echo '******'; ?><br>
               <b>Gender : </b><?php echo $row['donor_gender']; ?><br>
               <b>Age : </b> <?php echo $row['donor_age']; ?><br>
-              <b>Address : </b> <?php echo $row['donor_address']; ?><br>
+            <!--  <b>Address : </b> <?php echo $row['donor_address']; ?><br> -->
+              <b>Address : </b> <?php  echo '******'; ?><br>
             </p>
 
           </div>

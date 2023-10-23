@@ -15,12 +15,14 @@
 include 'head.php'; ?>
 <?php
 if(isset($_POST["send"])){
-  $name=$_POST['fullname'];
+$name=$_POST['fullname'];
 $number=$_POST['contactno'];
 $email=$_POST['email'];
 $message=$_POST['message'];
-$conn=mysqli_connect("localhost","root","","blood_donation") or die("Connection error");
-$sql= "insert into contact_query (query_name,query_mail,query_number,query_message) values('{$name}','{$number}','{$email}','{$message}')";
+#$conn=mysqli_connect("localhost","root","","blood_donation") or die("Connection error");
+$conn=mysqli_connect("localhost","obbds","obbds@123","blood_donation") or die("Connection error");
+#$sql= "insert into contact_query (query_name,query_mail,query_number,query_message) values('{$name}','{$number}','{$email}','{$message}')";
+$sql= "insert into contact_query (query_name,query_mail,query_number,query_message) values('{$name}','{$email}','{$number}','{$message}')";
 $result=mysqli_query($conn,$sql) or die("query unsuccessful.");
   echo '<div class="alert alert-success alert_dismissible"><b><button type="button" class="close" data-dismiss="alert">&times;</button></b><b>Query Sent, We will contact you shortly. </b></div>';
 }?>

@@ -119,7 +119,7 @@ include('head.php'); ?>
                         </div>
             </div>
 </div>
-
+<!-- 
         <h2>Blood Donor Names</h2>
 
         <div class="row">
@@ -148,7 +148,8 @@ include('head.php'); ?>
               </div>
         </div>
       <?php }} ?>
-</div>
+</div>  -->
+
 <br>
         <!-- /.row -->
 
